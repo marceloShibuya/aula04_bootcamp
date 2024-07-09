@@ -1,9 +1,14 @@
 # TYPE HINT
 
 # idade: int = 25
+# print(type(idade))
 # nome: str = "Ariovaldo"
+# print(type(nome))
 # altura: float = 1.88
+# print(type(altura))
 # is_estudante: bool = False
+# print(type(is_estudante))
+
 
 nome_valido: bool = False
 salario_valido: bool = False

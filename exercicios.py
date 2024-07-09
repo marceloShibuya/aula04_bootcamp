@@ -1,13 +1,20 @@
 
 # 1 - Crie uma lista com os números de 1 a 10 e use um loop para imprimir cada número elevado ao quadrado.
 
-lista: list = list(range(1,11))
+# lista: list = list(range(1,11))
 
-for i in lista:
-    print(i ** 2)
+# for i in lista:
+#     print(i ** 2)
 
 # 2 - Dada a lista ["Python", "Java", "C++", "JavaScript"], remova o item "C++" e adicione "Ruby".
 
+lista: list = ["Python", "Java", "C++", "JavaScript"]
+print(lista)
+lista.remove("C++")
+print(lista)
+lista.append("Ruby")
+
+print(lista)
 
 # 3 - Crie um dicionário para armazenar informações de um livro, incluindo título, autor e ano de publicação. 
 # Imprima cada informação.

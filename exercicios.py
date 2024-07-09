@@ -62,18 +62,24 @@
 
 # 4- Escreva um programa que conta o número de ocorrências de cada caractere em uma string usando um dicionário.
 
-texto = "hoje e dia de estudar python e git"
-contagem = {}
+# texto = "hoje e dia de estudar python e git"
+# contagem = {}
 
-for i in texto:
-    if i in contagem:
-        contagem[i] += 1
-    else:
-        contagem[i] = 1
+# for i in texto:
+#     if i in contagem:
+#         contagem[i] += 1
+#     else:
+#         contagem[i] = 1
 
-print(contagem)
-
+# print(contagem)
 
 
 # 5 - Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, 
 # calcule o preço total da lista de compras.
+
+lista = ["maçã", "banana", "cereja"] 
+dicionario = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
+
+total = sum(dicionario[i] for i in lista)
+
+print(total)

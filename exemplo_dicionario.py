@@ -23,6 +23,8 @@ dicionario.append(produto_02)
 #print(dicionario)
 
 
+#criando um arquivo json
+print("Criando um arquivo JSON")
 carrinho_compra = json.dumps(dicionario)
 print(carrinho_compra)
 

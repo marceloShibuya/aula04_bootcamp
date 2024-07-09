@@ -90,6 +90,30 @@
 # 6 - Eliminação de Duplicatas
 # Objetivo: Dada uma lista de emails, remover todos os duplicados.
 
-emails = ["user@example.com", "admin@example.com", "user@example.com", "manager@example.com"]
-emails_unicos = list(set(emails))
-print(emails_unicos)
+# emails = ["user@example.com", "admin@example.com", "user@example.com", "manager@example.com"]
+# emails_unicos = list(set(emails))
+# print(emails_unicos)
+
+# 7. Filtragem de Dados
+# Objetivo: Dada uma lista de idades, filtrar apenas aquelas que são maiores ou iguais a 18.
+
+#Minha solução
+idades = [22, 15, 30, 17, 18]
+idade_valida = []
+idade_invalida = []
+
+for i in idades:
+    if i >= 18:
+        idade_valida.append(i)
+    else:
+        idade_invalida.append(i)
+
+print(f'As idades >= 18 são: {idade_valida}')
+print(f'As idades < 18 são> {idade_invalida}')
+
+#Solução do Luciano
+# idades = [22, 15, 30, 17, 18]
+# idade_valida = [i for i in idades if i >= 18]
+# print(idade_valida)
+
+

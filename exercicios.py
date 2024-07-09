@@ -8,13 +8,13 @@
 
 # 2 - Dada a lista ["Python", "Java", "C++", "JavaScript"], remova o item "C++" e adicione "Ruby".
 
-lista: list = ["Python", "Java", "C++", "JavaScript"]
-print(lista)
-lista.remove("C++")
-print(lista)
-lista.append("Ruby")
+# lista: list = ["Python", "Java", "C++", "JavaScript"]
+# print(lista)
+# lista.remove("C++")
+# print(lista)
+# lista.append("Ruby")
 
-print(lista)
+# print(lista)
 
 # 3 - Crie um dicionário para armazenar informações de um livro, incluindo título, autor e ano de publicação. 
 # Imprima cada informação.
@@ -61,4 +61,19 @@ print(lista)
 
 
 # 4- Escreva um programa que conta o número de ocorrências de cada caractere em uma string usando um dicionário.
-# 5 - Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
+
+texto = "hoje e dia de estudar python e git"
+contagem = {}
+
+for i in texto:
+    if i in contagem:
+        contagem[i] += 1
+    else:
+        contagem[i] = 1
+
+print(contagem)
+
+
+
+# 5 - Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, 
+# calcule o preço total da lista de compras.

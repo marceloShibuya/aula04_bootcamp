@@ -77,9 +77,19 @@
 # 5 - Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, 
 # calcule o preço total da lista de compras.
 
-lista = ["maçã", "banana", "cereja"] 
-dicionario = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
+# lista = ["maçã", "banana", "cereja"] 
+# dicionario = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
 
-total = sum(dicionario[i] for i in lista)
+# total = sum(dicionario[i] for i in lista)
 
-print(total)
+# print(total)
+
+
+# Exercícios intermediários e mais avançados
+
+# 6 - Eliminação de Duplicatas
+# Objetivo: Dada uma lista de emails, remover todos os duplicados.
+
+emails = ["user@example.com", "admin@example.com", "user@example.com", "manager@example.com"]
+emails_unicos = list(set(emails))
+print(emails_unicos)

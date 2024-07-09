@@ -20,4 +20,10 @@ print("Exemplo de remove, removendo o que deseja retirar da lista")
 produtos.remove(produto)
 print(produtos)
 
+#exemplo de extend
+print("Exemplo de extend")
+numeros: list = []
+numeros.extend(range(0,5))
+print(numeros)
+
 

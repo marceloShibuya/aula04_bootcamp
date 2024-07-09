@@ -1,8 +1,8 @@
 # TYPE HINT
 
-# idade: int = 39
-# nome: str = "Marcelo"
-# altura: float = 1.68
+# idade: int = 25
+# nome: str = "Ariovaldo"
+# altura: float = 1.88
 # is_estudante: bool = False
 
 nome_valido: bool = False

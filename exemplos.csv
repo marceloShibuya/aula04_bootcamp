@@ -1,0 +1,4 @@
+nome, quantidade, preco, disponibilidade
+Marcelo, 35, 13.10, true
+Luciano, 39, 70.30, true
+Fabio, 22, 10.10, false

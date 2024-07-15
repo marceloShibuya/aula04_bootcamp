@@ -15,8 +15,6 @@
 
 # Criando uma API
 
-lista = [64, 34, 25, 12, 22, 11, 90]
-
 def ordernar_lista(lista: list) -> list:
     lista_ordenada = lista.copy()
 
@@ -27,7 +25,5 @@ def ordernar_lista(lista: list) -> list:
 
     return lista_ordenada
 
-print(lista)
 
-lista_1 = [80,3312,5,9,18,27,34,100,101]
-print(ordernar_lista(lista_1))
+
